@@ -6,7 +6,11 @@
       "Bash(lsof:*)",
       "Bash(npm run build:*)",
       "Bash(kill:*)",
-      "WebFetch(domain:supabase.com)"
+      "WebFetch(domain:supabase.com)",
+      "Bash(npm audit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

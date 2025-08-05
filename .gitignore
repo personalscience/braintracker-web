@@ -1,6 +1,37 @@
+# R files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Environment variables
 .env
-node_modules
+.env.local
+.env.production
+.env.staging
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
